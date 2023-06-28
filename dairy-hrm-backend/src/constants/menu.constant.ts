@@ -1,0 +1,42 @@
+export const DEFAULT_MENUS = [
+  {
+    name: "dashboard",
+    label: "Dashboard",
+    permissions: [],
+    icon: "dashboard",
+    url: "/admin/dashboard",
+    order: 1,
+  },
+  {
+    name: "employee",
+    label: "Employee",
+    permissions: [],
+    icon: "user",
+    url: "/admin/employee",
+    order: 2,
+  },
+  {
+    name: "holiday",
+    label: "Holidays",
+    permissions: [],
+    icon: "calendar",
+    url: "/admin/holiday",
+    order: 3,
+  },
+  {
+    name: "leaves",
+    label: "Leaves",
+    permissions: [],
+    icon: "",
+    url: "/admin/leaves",
+    order: 4,
+  },
+  {
+    name: "menu",
+    label: "Menus",
+    permissions: [],
+    icon: "",
+    url: "/admin/leaves",
+    order: 4,
+  },
+];
